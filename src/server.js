@@ -26,3 +26,6 @@ try {
     console.error(error);
     
 }
+// INSERT INTO `dmi_videogame_200070`.`tbb_players` (`id`, `name`, `email`, `password`, `nickname`, `birthdate`, `portrait_img`, `createdAt`) VALUES ('3', 'Arely', 'Areli@gmail.com', '7410', 'Arely2409', '2002-08-24', 'img3.jpg', '2023-11-14');
+// INSERT INTO `dmi_videogame_200070`.`tbb_players` (`id`, `name`, `email`, `password`, `nickname`, `birthdate`, `portrait_img`, `createdAt`) VALUES ('4', 'Daniel', 'Daniel@gmail.com', '8520', 'Danieru', '2002-04-18', 'img4.jpg', '2023-11-14');
+// INSERT INTO `dmi_videogame_200070`.`tbb_players` (`id`, `name`, `email`, `password`, `nickname`, `birthdate`, `portrait_img`, `createdAt`) VALUES ('5', 'Marco', 'Marco@gmail.com', '9630', 'Markohot', '2001-03-04', 'img5.jpg', '2023-11-14');
