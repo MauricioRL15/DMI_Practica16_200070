@@ -2,6 +2,7 @@ import express from "express"
 import playerRoutes from "./routes/playerRoutes.js"
 import dbConnection from "./config/db.js"
 import Player from "./models/Player.js";
+import bodyParser from "body-parser";
 
 
 const api = new express();
@@ -9,6 +10,7 @@ const api = new express();
 const port = 20007
 
 api.use("/players", playerRoutes)
+api.use(bodyParser.urlencoded({extended : false}))
 
 api.listen(port, () =>{
     console.log(`Server is running in port: ${port}`)
