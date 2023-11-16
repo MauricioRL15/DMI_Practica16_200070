@@ -12,7 +12,7 @@
 Materia: Desarrollo Móvil Integral. <br><br>
 Alumno: Mauricio Ramírez López <br><br>
 Matrícula: 200070 <br><br>
-Práctica 16: Implementación de las rutas y middlewares para el jugador. <br><br>
+Práctica 16: Creación del módelo jugadores e implementación de busqueda de todos los jugadores. <br><br>
 Descripción: 
 Creamos un código donde hicimos un conjunto de funciones para manejar operaciones relacionadas con jugadores en una nuestro videojuego. Cada función corresponde a una operación específica que puede llevarse a cabo sobre los datos de un jugador en el sistema. Cada función toma dos parámetros (rq y rs), que representan la solicitud (request) y la respuesta (response) en un entorno de servidor. Las funciones registran mensajes descriptivos en la consola sobre la acción que se está llevando a cabo y responden con un mensaje indicando la acción realizada. Todo forma parte de un API que gestiona jugadores, respondiendo a diferentes tipos de solicitudes como creación, búsqueda, actualización, cambio de foto de perfil y eliminación de jugadores.
 <br><br>
